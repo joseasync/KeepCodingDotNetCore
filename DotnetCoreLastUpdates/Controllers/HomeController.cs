@@ -27,7 +27,9 @@ namespace DotnetCoreLastUpdates.Controllers
                 Price = 39,
                 Rating = 10
             };
-            return RedirectToAction("Privacy", movie);
+            return View();
+            
+            //return RedirectToAction("Privacy", movie);
         }
 
         public IActionResult Privacy(Movie movie)
